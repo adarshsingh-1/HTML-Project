@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+    transition: all 0.5 ease;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.4)), url("./images/pexels-sanket-barik-7846474.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 25%;
+    text-align: center;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu a{
+width: 25%;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+.menu a:first-child {
+    color: rgb(255, 222, 88);
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+main h3{
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  main section span{
+    color: rgb(255, 222, 88);
+  }
+
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+      
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+
+  section .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+
+  .btnone:hover {
+    background: rgb(255, 222, 88);
+    color: rgb(0, 0, 0);
+  }
+
+  section .btntwo {
+    background: rgb(255, 222, 88);
+    color: rgb(0, 0, 0);
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .gtext{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3vh;
+    background-color: rgb(54, 54, 54);
+    color: #fff;
+  }
+
+.gallery img{
+        width: auto;
+        height: 50vh;
+        margin: 20px;
+        transition: all 1s;
+} 
+
+.gallery img:hover {
+	transform: scale(1.1);
+}
